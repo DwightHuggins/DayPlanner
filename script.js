@@ -1,4 +1,6 @@
 
+var plannerContent = JSON.parse(localStorage.getItem("planner-items")) || {};
+
 
 const timeBlockDiv = $("#time-block");
 
