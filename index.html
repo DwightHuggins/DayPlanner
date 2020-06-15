@@ -26,6 +26,14 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <script>var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var yyyy = today.getFullYear();
+        
+        today = mm + '/' + dd + '/' + yyyy;
+        document.write(today);
+        </script>
       <p id="currentDay" class="lead"></p>
     </header>
 
