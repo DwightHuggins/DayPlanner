@@ -16,12 +16,7 @@
 
 ## Installation
 
-Clone the repo and run the index.html/script.js/index/html files in browser. 
-
-
-## Usage 
-![screenshot](./assets/images/brand-awareness.png)
-
+Clone the repo files and run index.html/script.js/style.css files in browser. 
 
 
 ## Credits
